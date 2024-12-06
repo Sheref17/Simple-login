@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #24353F;
+            height: 60vh;
+
+        }
+         .home ul{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            list-style: none;
+            box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);;
+            height: 100px;
+            width: 50%;
+            margin: 50px auto;
+         
+
+        }
+        li a{
+          color: white;
+          text-decoration: none;
+          font-size: 19px;
+          
+        }
+        .zn{
+            margin-top: 100px;
+            box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);;
+            width: 50%;
+            height: 50vh;
+            margin-inline: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        p{
+            font-size: 50px;
+            color: white;
+            text-align: center;
+        }
+        
+    
+    </style>
+</head>
+<body>
+    <div class="home" id="home">
+        <ul>
+            <li>
+            <a href="">Home</a>
+            </li>
+            <li><a href="Signin.html" onclick="remove()">log out</a></li>
+        </ul>
+    </div>
+    <div class="zn" >
+<p id="text"></p>
+    </div>
+    <script src="js/index.js"></script>
+    <script>
+           
+           document.getElementById('text').innerHTML = `hello ${localStorage.getItem('sessionUsername')}`;
+     
+    </script>
+  
+    
+</body>
+</html>

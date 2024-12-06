@@ -1,0 +1,93 @@
+body{
+  background-color: #24353F;
+  display:  flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+}
+.Register{
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);;
+  width: 50%;
+}
+.login{
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);;
+  width: 50%;
+}
+.title {
+  text-align:  center;
+  color: #17a2b8;
+  font-size: 40px;
+  font-weight: 500;
+}
+h1{
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  
+}
+input{
+  margin: 10px auto;
+  width: 90%;
+  padding: 13px 0;
+  border-radius: 7px;
+background-color: transparent;
+border: 2px solid #90989D;
+color: white;
+}
+input::placeholder{
+  color: #90989D;
+  padding-left: 10px;
+}
+.button{
+width: 90%;
+margin: 15px auto;
+  display: block;
+  padding: 10px 0;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid #0DCAF0;
+  color:#0DCAF0;
+  font-size: 18px;
+  transition: .5s;
+
+}
+.signup {
+  text-align: center;
+  color:  white;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size:  20px;
+}
+a {
+  text-decoration:  none;
+  color: white;
+  
+}
+a:hover{
+  text-decoration: underline;
+}
+input:focus{
+  border-color: #86B7FE;
+  outline: none;
+}
+button:hover{
+  background-color: #0DCAF0;
+  color: black;
+  
+}
+ .warning {
+  color: red;
+  text-align: center;
+  font-size: 18px;
+} 
+.display{
+  display: none;
+}
+.green{
+  color: green !important;
+  text-align: center;
+  font-size: 18px;
+}
